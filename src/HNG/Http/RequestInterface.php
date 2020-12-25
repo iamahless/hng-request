@@ -12,7 +12,7 @@ interface RequestInterface {
      * @param  $options
      * @return mixed
      */
-    public function get($url, array $options);
+    public function get($url, array $options = []);
 
     /**
      * Send a POST request to the URL.
@@ -22,7 +22,7 @@ interface RequestInterface {
      * @param  $options
      * @return mixed
      */
-    public function post($url, array $params, array $options);
+    public function post($url, array $params = [], array $options = []);
 
     /**
      * Send a DELETE request to the URL.
@@ -32,7 +32,7 @@ interface RequestInterface {
      * @param  $options
      * @return mixed
      */
-    public function delete($url, array $params, array $options);
+    public function delete($url, array $params = [], array $options = []);
 
     /**
      * Send a PUT request to the URL.
@@ -42,6 +42,6 @@ interface RequestInterface {
      * @param array $options
      * @return mixed
      */
-    public function put($url, array $params, array $options);
+    public function put($url, array $params = [], array $options = []);
 
 }

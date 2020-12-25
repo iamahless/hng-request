@@ -1,23 +1,23 @@
 {
-    "name": "neo/crs-request",
-    "description": "Send HTTP request to the CRS router easily.",
-    "authors": [
-        {
-            "name": "Neo Ighodaro",
-            "email": "neo@hng.tech"
-        }
-    ],
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "HNG\\Http\\": "src/HNG/Http/"
-        },
-        "files": [
-            "src/HNG/Support/helpers.php"
-        ]
-    },
-    "require": {
-        "php": ">=5.5.9",
-        "guzzlehttp/guzzle": "~6.0"
+  "name": "iamahless/crs-request",
+  "description": "Send HTTP request to the CRS router easily.",
+  "authors": [
+    {
+      "name": "Alexander Garuba",
+      "email": "alex.garuba@hotels.ng"
     }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "HNG\\Http\\": "src/HNG/Http/"
+    },
+    "files": [
+      "src/HNG/Support/helpers.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^7.0.1"
+  }
 }

@@ -2,10 +2,9 @@
 
 Make requests to the HNG CRS api easily.
 
-
 ### How to use basically
 
-Pull in the package from composer `"neo/crs-request":"1.*"`. Thats all. A sample implementation is below.
+Pull in the package from composer `"iamahless/crs-request":"1.*"`. Thats all. A sample implementation is below.
 
     <?php
 

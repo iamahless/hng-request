@@ -6,7 +6,7 @@ class InvalidRequest extends \Exception {
 
     protected $response;
 
-    public function __construct($response, $message = null, $code = 0, Exception $previous = null)
+    public function __construct($response, $message = null, $code = 0, \Exception $previous = null)
     {
         $this->response = $response;
 

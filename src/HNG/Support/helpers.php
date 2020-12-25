@@ -18,7 +18,7 @@ if ( ! function_exists('crsRequest'))
                 'base_url' => $config['base_url']
             ]);
         } else {
-            throw new Exception("Unsupported request driver.");
+            throw new \Exception("Unsupported request driver.");
         }
 
         return new Http\Request($driver, $config);
